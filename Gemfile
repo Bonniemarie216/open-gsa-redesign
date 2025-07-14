@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '>= 4.0.0'
 gem 'kramdown-parser-gfm'
 
 group :jekyll_plugins do
@@ -11,7 +11,7 @@ end
 
 group :development, :test do
   gem 'rake'
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 5.0.10'
   gem 'eslintrb'
   gem 'test-unit'
   gem 'json-schema'
